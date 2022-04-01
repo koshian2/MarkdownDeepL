@@ -1,7 +1,9 @@
 # Markdown DeepL
 Very simple application to translate markdown files at DeepL.
 
-![](imgs/img03.png)
+https://user-images.githubusercontent.com/12977641/161288924-4c33ff1f-46c0-4be6-9e2b-162362122c36.mp4
+
+This demo also used Marp for slide processing.
 
 ## Quick Start
 
@@ -32,10 +34,13 @@ Very simple application to translate markdown files at DeepL.
 ### DeepL web version sample
 ![](imgs/img02.png)
 
+### This application
+![](imgs/img03.png)
+
 ## Work with Marp and Reveal.js
 When used with Markdown slide creation libraries such as [Marp](https://marp.app/) and [Reveal.js](https://revealjs.com/), you can easily create multilingual presentations!
 
-![](sample/demo_slide.mp4)
+
 
 ## Changing source/target language
 * 「元言語」：Source language
