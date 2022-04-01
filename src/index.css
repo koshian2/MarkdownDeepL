@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+}
+div#header{
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    align-items: center;
+}
+div.header-container {
+    text-align: center;
+}
+div#main{
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    align-items: center;
+}
+div#footer{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+
+}
+button#translate{
+    height: 40px;
+    margin: 0px 5px;
+}

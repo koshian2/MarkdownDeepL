@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Markdown DeepL</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="./eel.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="header-container">
+                <label for="source_lang">元言語</label>
+                <input type="text" name="source_lang" id="source_lang" size="5"/>
+            </div>
+            <div></div>
+            <div class="header-container">
+                <label for="target_lang">翻訳言語</label>
+                <input type="text" name="target_lang" id="target_lang" size="5"/>
+            </div>
+        </div>
+        <div id="main">
+            <textarea id="source_text" placeholder="Original Text Here"></textarea>
+            <button id="translate">Translate</button>
+            <textarea id="target_text" placeholder="Translated Text Here"></textarea>
+        </div>
+        <div id="footer">
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
